@@ -1,0 +1,58 @@
+.banner {
+    text-align: center;
+
+    &__title {
+        font-size: 3.5rem;
+        line-height: 4.1rem;
+        font-family: $font-raleway;
+        font-weight: 400;
+
+        @include phone {
+            margin-top: 6vh;
+        }
+
+        @include tablet {
+            font-size: 4.9rem;
+            line-height: 5.7rem;
+            margin-top: 100px;
+        }
+    }
+
+    &__description {
+        padding: 20px 0 35px 0;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    &__btn {
+        padding: 22px 20vw;
+        border-radius: 40px;
+
+        @include tablet {
+            padding: 22px 157px;
+        }
+    }
+}
+
+.open {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__background {
+        width: 220%;
+        transform: translateX(-28%);
+    }
+
+    @include tablet {
+        height: auto;
+        display: block;
+
+        &__background {
+            width: 100%;
+            transform: translateX(0%);
+        }
+    }
+}

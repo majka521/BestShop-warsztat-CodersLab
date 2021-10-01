@@ -1,0 +1,239 @@
+.price {
+    padding: 50px 18px 0px 18px;
+
+    @include phone {
+        padding: 50px 11vw 0px 11vw;
+    }
+
+    @include middleTablet {
+        padding: 50px 20vw 0px 20vw;
+    }
+
+    @include tablet {
+        padding: 50px 26vw 0px 26vw;
+    }
+
+    @include bigTablet {
+        padding: 50px 29vw 0px 29vw;
+    }
+
+    @include miniNotebook {
+        padding: 100px 40px;
+    }
+
+    @include biggerNotebook {
+        padding: 100px 60px;
+    }
+
+    @include notebook {
+        padding: 100px 0;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 3.6rem;
+        line-height: 4.2rem;
+        margin-bottom: 15px;
+    }
+
+    &__options {
+        @include miniNotebook {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__frame {
+        border: 1px solid $color-redish;
+        border-radius: 18px;
+        padding: 25px 10px 50px 10px;
+        position: relative;
+
+        @include miniNotebook {
+            padding: 34px 10px 80px;
+            min-width: 270px;
+        }
+
+        @include middleNotebook {
+            min-width: 315px;
+        }
+
+        @include biggerNotebook {
+            min-width: 347px;
+        }
+
+        @include notebook {
+            padding: 34px 80px 80px;
+            min-width: 382px;
+        }
+
+        &__basic {
+            margin: 0 23px 50px;
+
+            @include miniNotebook {
+                margin: 70px 0 20px 0;
+            }
+        }
+
+        &__professional {
+            margin-bottom: 50px;
+            border-color: $color-primary;
+            box-shadow: $btn-shadow;
+
+            @include miniNotebook {
+                margin: 50px 60px 0 60px;
+            }
+        }
+
+        &__premium {
+            margin: 0 23px 50px;
+            border-color: $color-green;
+
+            @include miniNotebook {
+                margin: 70px 0 20px 0;
+            }
+        }
+    }
+
+    &__details {
+        display: flex;
+        align-items: center;
+
+        @include miniNotebook {
+            flex-direction: column;
+        }
+
+        .icon--ok {
+            &::before {
+                content: "";
+                background-image: url(../assets/Checkmark-1.svg);
+                width: 11px;
+                height: 11px;
+                display: inline-block;
+                margin-right: 8px;
+            }
+        }
+
+        .icon--no {
+            &::before {
+                content: "";
+                background-image: url(../assets/Close.svg);
+                width: 11px;
+                height: 11px;
+                display: inline-block;
+                margin-right: 8px;
+            }
+        }
+    }
+
+    &__type {
+        width: 40%;
+        text-align: center;
+
+        @include phone {
+            width: 50%;
+        }
+
+        .basic {
+            color: $color-redish;
+        }
+
+        .professional {
+            color: $color-primary;
+        }
+
+        .premium {
+            color: $color-green;
+        }
+    }
+
+    &__option {
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: $font-raleway;
+
+        @include miniPhone {
+            font-size: 1.5rem;
+        }
+
+        @include miniNotebook {
+            line-height: 2.4rem;
+            margin-bottom: 14px;
+        }
+
+    }
+
+    &__dollars {
+        font-size: 4.6rem;
+        font-weight: 500;
+        line-height: 6.4rem;
+
+        @include miniPhone {
+            font-size: 3.6rem;
+        }
+
+        @include miniNotebook {
+            line-height: 6.4rem;
+        }
+    }
+
+    &__limited {
+        font-size: 1.2rem;
+        font-weight: 700;
+        font-family: $font-raleway;
+
+        @include miniNotebook {
+            line-height: 1.4rem;
+            padding-top: 5px;
+        }
+    }
+
+    &__list {
+        width: 60%;
+        padding-left: 10px;
+
+        @include phone {
+            width: 50%;
+            padding-left: 0;
+        }
+
+        @include miniNotebook {
+            width: 100%;
+            padding-top: 50px;
+            text-align: center;
+
+            &__professional {
+                padding-top: 60px;
+            }
+        }
+
+        .elements {
+            font-size: 1.4rem;
+            line-height: 4.1rem;
+
+            @include miniPhone {
+                font-size: 1.1rem;
+                line-height: 3.1rem;
+            }
+        }
+    }
+
+    &__btn {
+        font-size: 1.3rem;
+        line-height: 50px;
+        border-radius: 23px;
+        box-shadow: none;
+        padding: 0 57px;
+        position: absolute;
+        bottom: -25px;
+        left: calc(50% - 75px); //zmienić w razie zmiany wilekości przycisku!
+    }
+
+    &__btn.basic {
+        background-color: $color-redish;
+    }
+
+    &__btn.premium {
+        background-color: $color-green;
+    }
+}

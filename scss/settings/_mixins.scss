@@ -1,0 +1,53 @@
+@mixin miniPhone {
+    @media screen and (max-width: 350px) {
+        @content;
+    }
+}
+
+@mixin phone {
+    @media screen and (min-width: 430px) {
+        @content;
+    }
+}
+
+@mixin middleTablet {
+    @media screen and (min-width: 610px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin bigTablet {
+    @media (min-width: 880px) {
+        @content;
+    }
+}
+
+@mixin miniNotebook {
+    @media (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin middleNotebook {
+    @media (min-width: 1150px) {
+        @content;
+    }
+}
+
+@mixin biggerNotebook {
+    @media (min-width: 1280px) {
+        @content;
+    }
+}
+
+@mixin notebook {
+    @media (min-width: 1352px) {
+        @content;
+    }
+}

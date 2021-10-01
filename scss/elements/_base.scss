@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $font-open-sans;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    font-weight: 400;
+}
+
+.shopName {
+    color: $color-primary;
+    font-family: $font-raleway;
+    font-weight: 300;
+}
+
+.container {
+    max-width: 1352px;
+    margin: 0 auto;
+
+    &__statistics {
+        max-width: 825px;
+    }
+
+    &__benefits {
+        max-width: 1124px;
+    }
+
+    &__price {
+        max-width: 1266px;
+    }
+
+    &__form {
+        max-width: 896px;
+    }
+}

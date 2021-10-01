@@ -1,0 +1,10 @@
+.btn {
+    display: inline-block;
+    background-color: $color-primary;
+    color: $color-white;
+    font-family: $font-open-sans;
+    font-weight: bold;
+    box-shadow: $btn-shadow;
+    font-size: 1.6rem;
+    cursor: pointer;
+}

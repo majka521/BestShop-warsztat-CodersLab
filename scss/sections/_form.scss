@@ -1,0 +1,154 @@
+.form {
+    padding: 40px 30px;
+
+    @include bigTablet {
+        padding: 80px 100px;
+    }
+
+    &__wrapper {
+        @include bigTablet {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__title {
+        font-size: 4rem;
+        line-height: 4.7rem;
+
+        @include miniPhone {
+            font-size: 3rem;
+            line-height: 3.7rem;
+        }
+
+        @include miniNotebook {
+            font-size: 4.9rem;
+            line-height: 5.7rem;
+        }
+    }
+
+    &__text {
+        padding-bottom: 15px;
+        line-height: 3.5rem;
+
+        @include miniPhone {
+            font-size: 1.4rem;
+            line-height: 2.5rem;
+        }
+
+        @include bigTablet {
+            padding-bottom: 42px;
+            padding-top: 22px;
+            line-height: 2.2rem;
+        }
+    }
+
+    &__contact {
+        color: $color-grey;
+        padding-bottom: 10px;
+
+        @include miniNotebook {
+            display: flex;
+        }
+
+        &__link {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+
+            .icon {
+                margin-right: 10px;
+
+                &--telephone {
+                    @include miniNotebook {
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+
+        &__data {
+            color: $color-grey;
+        }
+    }
+
+    &__user {
+        display: flex;
+        flex-direction: column;
+
+        @include bigTablet {
+            max-width: 50%;
+        }
+
+        &__label {
+            font-weight: 800;
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+            letter-spacing: 0.328rem;
+            color: $color-primary;
+            text-transform: uppercase;
+            padding-top: 35px;
+
+            @include bigTablet {
+                padding-top: 0px;
+
+                &--email {
+                    padding-top: 35px;
+                }
+            }
+        }
+
+        &__input {
+            border: none;
+            border-bottom: 1px solid $color-grey;
+            line-height: 3.5rem;
+            font-size: 1.6rem;
+        }
+
+    }
+
+    &__checkbox {
+        margin-top: 30px;
+
+        &__label {
+            cursor: pointer;
+            display: flex;
+
+            input {
+                width: 0;
+                height: 0;
+            }
+
+            input:checked+span {
+                background-image: url(../assets/Checkmark.svg);
+                background-repeat: no-repeat;
+                background-size: 1.5rem;
+                background-position: center;
+            }
+        }
+
+        &__span {
+            height: 24px;
+            flex-shrink: 0;
+            flex-basis: 24px;
+            border: 1px solid $color-border-gray;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+
+        &__description {
+            font-size: 1.2rem;
+            color: $color-middle-grey;
+            line-height: 1.7rem;
+        }
+    }
+
+    &_btn {
+        font-size: 1.3rem;
+        border-radius: 35px;
+        border: none;
+        padding: 20px 97px;
+        align-self: flex-end;
+        margin-top: 21px;
+    }
+}
