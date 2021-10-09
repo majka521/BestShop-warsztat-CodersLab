@@ -28,6 +28,12 @@
     }
 }
 
+@mixin miniNotebook2 {
+    @media (max-width: 1024px) {
+        @content;
+    }
+}
+
 @mixin miniNotebook {
     @media (min-width: 1024px) {
         @content;

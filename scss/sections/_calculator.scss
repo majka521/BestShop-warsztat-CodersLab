@@ -1,0 +1,207 @@
+.calc {
+    padding: 80px 0;
+    background-color: $color-light-grey;
+
+    @include miniNotebook2 {
+        padding: 30px 15px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 3.6rem;
+        font-family: $font-raleway;
+
+        @include miniPhone {
+            font-size: 3rem;
+        }
+    }
+
+    &__columns {
+        max-width: 865px;
+        margin: 50px auto 0;
+        display: flex;
+
+        @include miniNotebook2 {
+            display: block;
+        }
+    }
+
+    &__form {
+        width: 50%;
+        margin-right: 20px;
+
+        @include miniNotebook2 {
+            width: 100%;
+            margin-right: 0;
+        }
+    }
+
+
+    &__input input,
+    &__select .select__input {
+        color: $color-grey;
+        width: 100%;
+        border-radius: 6px;
+        border: 1px solid $color-primary;
+        padding: 11px 20px;
+        line-height: 1em;
+        font-size: 1.4rem;
+        box-shadow: 0px 3px 6px $color-primary-shadow;
+        margin-bottom: 20px;
+        background-color: $color-white;
+    }
+
+    &__input {
+        input {
+            &::placeholder {
+                color: $color-grey;
+            }
+        }
+    }
+
+    &__select {
+        position: relative;
+
+        .select__input {
+            position: relative;
+            height: 40px;
+            vertical-align: middle;
+            padding: 13px 20px;
+            cursor: pointer;
+
+            &::after {
+                content: "";
+                background-image: url("../assets/Arrow.svg");
+                width: 22px;
+                height: 22px;
+                display: block;
+                position: absolute;
+                right: 14px;
+                top: 9px;
+            }
+        }
+
+        .select__dropdown {
+            display: none;
+            position: absolute;
+            z-index: 1;
+            background-color: white;
+            width: 100%;
+            border-radius: 6px;
+            border: 1px solid $color-redish;
+            overflow: hidden;
+
+            li {
+                font-size: 1.3rem;
+                padding: 10px 20px;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: $color-light-grey;
+                }
+            }
+        }
+
+
+        &.open--calc {
+            .select__input::after {
+                transform: rotate(180deg);
+            }
+
+            .select__dropdown {
+                display: block;
+            }
+        }
+    }
+
+    .form__checkbox--calc {
+        cursor: pointer;
+        display: flex;
+
+        input {
+            width: 0;
+            height: 0;
+        }
+
+        input:checked+span {
+            background-image: url(../assets/Checkmark.svg);
+            background-repeat: no-repeat;
+            background-size: 1.5rem;
+            background-position: center;
+        }
+
+        .checkbox {
+            height: 24px;
+            flex-shrink: 0;
+            flex-basis: 24px;
+            border: 1px solid $color-border-gray;
+            border-radius: 4px;
+            margin-right: 10px;
+            margin-bottom: 12px;
+            background-color: $color-white;
+        }
+
+        .consent__text {
+            padding-top: 4px;
+            margin: 0 10px;
+            font-size: 1.2rem;
+            color: #a5a5a5;
+            line-height: 17px;
+            cursor: pointer;
+        }
+    }
+
+    &__summary {
+        width: 50%;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+
+        @include miniNotebook2 {
+            width: 100%;
+            margin-left: 0;
+            margin-top: 18px;
+        }
+
+        .summary__total,
+        .list__item {
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, .16);
+            border-radius: 6px;
+            justify-content: space-between;
+            align-items: center;
+            color: $color-white;
+            font-size: 1.4rem;
+            display: none;
+
+            &.open--calc {
+                display: flex;
+            }
+        }
+
+        .summary__total {
+            width: 50%;
+            align-self: flex-end;
+            margin-top: 22px;
+            padding: 8px 20px;
+            background-color: $color-primary;
+
+            .total__price {
+                font-size: 2rem;
+                font-weight: 700;
+            }
+        }
+
+        .list__item {
+            padding: 6px 20px;
+            background-color: $color-green;
+            margin-bottom: 8px;
+
+            .item {
+                &__price {
+                    font-weight: 700;
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+}

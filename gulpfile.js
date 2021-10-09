@@ -11,7 +11,9 @@ function compileSass(done) {
   gulp
     .src(entryPath + "/scss/main.scss")
     .pipe(sourcemaps.init())
-    .pipe(sass({ outputStyle: "expanded" }).on("error", sass.logError))
+    .pipe(sass({
+      outputStyle: "expanded"
+    }).on("error", sass.logError))
     .pipe(autoprefixer())
     .pipe(sourcemaps.write("."))
     .pipe(gulp.dest(entryPath + "/css"));
@@ -26,6 +28,7 @@ function watcher(done) {
 
   gulp.watch(entryPath + "/scss/**/*.scss", gulp.series(compileSass, reload));
   gulp.watch(entryPath + "/*.html", gulp.series(reload));
+  gulp.watch(entryPath + "/js/*.js", gulp.series(reload));
 
   done();
 }
