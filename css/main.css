@@ -1003,53 +1003,32 @@ p {
 }
 
 .price {
-  padding: 50px 18px 0px 18px;
-}
-@media screen and (min-width: 430px) {
-  .price {
-    padding: 50px 11vw 0px 11vw;
-  }
-}
-@media screen and (min-width: 610px) {
-  .price {
-    padding: 50px 20vw 0px 20vw;
-  }
-}
-@media (min-width: 768px) {
-  .price {
-    padding: 50px 26vw 0px 26vw;
-  }
-}
-@media (min-width: 880px) {
-  .price {
-    padding: 50px 29vw 0px 29vw;
-  }
+  padding: 50px 6vw;
 }
 @media (min-width: 1024px) {
   .price {
-    padding: 100px 40px;
-  }
-}
-@media (min-width: 1280px) {
-  .price {
-    padding: 100px 60px;
-  }
-}
-@media (min-width: 1352px) {
-  .price {
-    padding: 100px 0;
+    padding: 80px 60px;
   }
 }
 .price__title {
   text-align: center;
   font-size: 3.6rem;
   line-height: 4.2rem;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
+}
+@media (min-width: 1024px) {
+  .price__title {
+    margin-bottom: 0;
+  }
+}
+.price__options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 @media (min-width: 1024px) {
   .price__options {
-    display: flex;
-    justify-content: space-between;
+    flex-direction: row;
   }
 }
 .price__frame {
@@ -1057,27 +1036,14 @@ p {
   border-radius: 18px;
   padding: 25px 10px 50px 10px;
   position: relative;
+  width: 75vmin;
+  max-width: 380px;
 }
 @media (min-width: 1024px) {
   .price__frame {
     padding: 34px 10px 80px;
-    min-width: 270px;
-  }
-}
-@media (min-width: 1150px) {
-  .price__frame {
-    min-width: 315px;
-  }
-}
-@media (min-width: 1280px) {
-  .price__frame {
-    min-width: 347px;
-  }
-}
-@media (min-width: 1352px) {
-  .price__frame {
-    padding: 34px 80px 80px;
-    min-width: 382px;
+    width: 27vmin;
+    width: 29vmax;
   }
 }
 .price__frame__basic {
@@ -1092,10 +1058,14 @@ p {
   margin-bottom: 50px;
   border-color: #08a6e4;
   box-shadow: 5px 10px 14px rgba(7, 172, 230, 0.16);
+  width: 85vmin;
+  max-width: 420px;
 }
 @media (min-width: 1024px) {
   .price__frame__professional {
     margin: 50px 60px 0 60px;
+    width: 27vmin;
+    width: 29vmax;
   }
 }
 .price__frame__premium {
