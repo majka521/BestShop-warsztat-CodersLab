@@ -5,6 +5,7 @@ Jest to strona prezentująca usługi zarządzania sklepami online przez wymyślo
 
 Strona została stworzona responsywnie w oparciu o HTML i CSS/SASS. W sekcji kalkulatora użyto także JavaScript.
 Strona posiada prostą nawigację, banner, cztery sekcje ze statystkami, benefitami, cennikiem i kalkulatorem, krótki formularz oraz stopkę.
+Wszystko, z wyjątkiem HTML i stylowania sekcji kalkulator, wykonałam samodzielnie.
 
 Stronę można podejrzeć tutaj: 
 https://majka521.github.io/BestShop-warsztat-CodersLab/
