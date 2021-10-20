@@ -12,7 +12,7 @@ Strona została stworzona w pełni responsywnie, w związku z czym polecam przej
 - sekcja kalkulatora
 - formularz
 - stopka
-- 
+
 ### Technologie:
 - HTML
 - SASS
