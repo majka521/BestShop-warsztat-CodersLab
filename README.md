@@ -1,11 +1,24 @@
 # BestShop - warsztat CodersLab
 
-Strona typu one-page tworzona w ramach warsztatu CodersLab, na podstawie przekazanego projektu w Adobe XD.
-Jest to strona prezentująca usługi zarządzania sklepami online przez wymyśloną na potrzeby warsztatu firmę.
+BestShop jest to strona typu one-page stworzona w ramach warsztatu CodersLab, na podstawie przekazanego projektu w Adobe XD. Prezentuje ona usługi zarządzania sklepami online przez wymyśloną na potrzeby warsztatu firmę.
+Strona została stworzona w pełni responsywnie, w związku z czym polecam przejrzeć ją na różnych urządzeniach.
 
-Strona została stworzona responsywnie w oparciu o HTML i CSS/SASS. W sekcji kalkulatora użyto także JavaScript.
-Strona posiada prostą nawigację, banner, cztery sekcje ze statystkami, benefitami, cennikiem i kalkulatorem, krótki formularz oraz stopkę.
-Wszystko, z wyjątkiem HTML i stylowania sekcji kalkulator, wykonałam samodzielnie.
+### Elementy strony:
+- nawigacja
+- banner
+- sekcja statystyk
+- sekcja benefitów
+- sekcja cennika
+- sekcja kalkulatora
+- formularz
+- stopka
+- 
+### Technologie:
+- HTML
+- SASS
+- Vanilla JavaScript
 
-Stronę można podejrzeć tutaj: 
-https://majka521.github.io/BestShop-warsztat-CodersLab/
+> Cały projekt, z wyjątkiem HTML+SASS w sekcji kalkulatora, wykonałam
+> samodzielnie.
+
+Stronę można zobaczyć [tutaj](https://majka521.github.io/BestShop-warsztat-CodersLab/).
