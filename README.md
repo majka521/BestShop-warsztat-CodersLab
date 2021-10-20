@@ -14,9 +14,10 @@ Stronę można zobaczyć [tutaj](https://majka521.github.io/BestShop-warsztat-Co
 - formularz
 - stopka
 
-### Technologie:
+### Technologie i narzędzia:
 - HTML
 - SASS
 - Vanilla JavaScript
+- Gulp
 
 > HTML i SASS w sekcji kalkulatora zostały wykonane przez CodersLab. Pozostałą część projektu wykonałam samodzielnie.
