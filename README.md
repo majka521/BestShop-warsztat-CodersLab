@@ -19,5 +19,4 @@ Stronę można zobaczyć [tutaj](https://majka521.github.io/BestShop-warsztat-Co
 - SASS
 - Vanilla JavaScript
 
-> Cały projekt, z wyjątkiem HTML+SASS w sekcji kalkulatora, wykonałam
-> samodzielnie.
+> HTML i SASS w sekcji kalkulatora zostały wykonane przez CodersLab. Pozostałą część projektu wykonałam samodzielnie.
