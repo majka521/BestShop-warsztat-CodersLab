@@ -21,7 +21,7 @@ This project was created using the following technologies:
 ![Html 5 icon by Icons8](https://img.icons8.com/color/50/000000/html-5.png)
 ![Sass icon by Icons8](https://img.icons8.com/color/50/000000/sass.png)
 ![JavaScript icon by Icons8](https://img.icons8.com/color/50/000000/javascript--v2.png)
-![Gulp icon by Icons8](https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/000000/external-gulp-an-open-source-javascript-toolkit-by-fractal-innovations-logo-shadow-tal-revivo.png)
+![Gulp icon by Icons8](https://img.icons8.com/windows/32/000000/gulp.png)
 
 > HTML i SASS w sekcji kalkulatora zostały wykonane przez CodersLab. Pozostałą część projektu wykonałam samodzielnie.
 
@@ -39,10 +39,15 @@ This project was created using the following technologies:
 ## Screenshot
 
 Smartphone
+
 ![Smartphone](https://media.giphy.com/media/3dr3Q8qJfF8qdFWi19/giphy.gif)
+
 Tablet
+
 ![Smartphone](https://media.giphy.com/media/3dr3Q8qJfF8qdFWi19/giphy.gif)
+
 Notebook
+
 ![Smartphone](https://media.giphy.com/media/3dr3Q8qJfF8qdFWi19/giphy.gif)
 
 ---
