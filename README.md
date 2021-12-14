@@ -1,6 +1,6 @@
 # BestShop - workshop CodersLab
 
-## Description
+## ![Description icon by Icons8](https://img.icons8.com/dusk/24/000000/document--v1.png) Description
 
 BestShop is a worhshop created for CodersLab JavaScript Developer bootcamp.
 
@@ -9,7 +9,7 @@ The website has been created fully responsive, so I recommend viewing it on diff
 
 You can see the page **[here](https://majka521.github.io/BestShop-workshop-CodersLab/)**.
 
-## Technologies and tools
+## ![Tools icon by Icons8](https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/24/000000/external-tools-plumbing-icongeek26-linear-colour-icongeek26.png) Technologies and tools
 
 This project was created using the following technologies:
 
@@ -25,7 +25,7 @@ This project was created using the following technologies:
 
 > HTML and SASS in calculator section was created by CodersLab. The rest of the project I did on my own.
 
-## Page elements
+## ![Page icon by Icons8](https://img.icons8.com/external-justicon-lineal-color-justicon/24/000000/external-landing-page-responsive-web-design-justicon-lineal-color-justicon.png) Page elements
 
 - navigation
 - banner
@@ -36,7 +36,7 @@ This project was created using the following technologies:
 - form
 - footer
 
-## Screenshots
+## ![Screenshot icon by Icons8](https://img.icons8.com/dusk/24/000000/unsplash.png) Screenshots
 
 #### Smartphone
 
