@@ -4,8 +4,8 @@
 
 BestShop is a worhshop created for CodersLab JavaScript Developer bootcamp.
 
-**BestShop** is a one-page website created during CodersLab workshop, na podstawie przekazanego projektu w Adobe XD. Prezentuje ona usługi zarządzania sklepami online przez wymyśloną na potrzeby warsztatu firmę.
-Strona została stworzona w pełni responsywnie, w związku z czym polecam przejrzeć ją na różnych urządzeniach.
+**BestShop** is a one-page website created during CodersLab workshop. It was created based on a project received in Adobe XD. It presents online store management services by a company invented for the workshop.
+The website has been created fully responsive, so I recommend viewing it on different devices.
 
 You can see the page **[here](https://majka521.github.io/BestShop-workshop-CodersLab/)**.
 
