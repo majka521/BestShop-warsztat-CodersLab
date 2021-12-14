@@ -21,7 +21,7 @@ This project was created using the following technologies:
 ![Html 5 icon by Icons8](https://img.icons8.com/color/50/000000/html-5.png)
 ![Sass icon by Icons8](https://img.icons8.com/color/50/000000/sass.png)
 ![JavaScript icon by Icons8](https://img.icons8.com/color/50/000000/javascript--v2.png)
-![Gulp icon by Icons8](https://img.icons8.com/external-tal-revivo-color-tal-revivo/96/000000/external-gulp-an-open-source-javascript-toolkit-by-fractal-innovations-logo-color-tal-revivo.png)
+![Gulp icon by Icons8](https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-gulp-an-open-source-javascript-toolkit-by-fractal-innovations-logo-color-tal-revivo.png)
 
 > HTML i SASS w sekcji kalkulatora zostały wykonane przez CodersLab. Pozostałą część projektu wykonałam samodzielnie.
 
