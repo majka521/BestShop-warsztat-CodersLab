@@ -9,7 +9,7 @@ The website has been created fully responsive, so I recommend viewing it on diff
 
 You can see the page **[here](https://majka521.github.io/BestShop-workshop-CodersLab/)**.
 
-## ![Tools icon by Icons8](https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/24/000000/external-tools-plumbing-icongeek26-linear-colour-icongeek26.png) Technologies and tools
+## ![Tools icon by Icons8](https://img.icons8.com/external-icongeek26-linear-colour-icongeek26/24/000000/external-tools-plumbing-icongeek26-linear-colour-icongeek26.png) Technologies
 
 This project was created using the following technologies:
 
